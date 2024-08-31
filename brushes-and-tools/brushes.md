@@ -1,6 +1,6 @@
 # Brushes
 
-All brushes are contained within the `//ezbrush ...` (`//ezbr`) command.
+Alle Brushes sind unter dem `//ezbrush ...` (`//ezbr`) Command enthalten.
 
 
 
@@ -14,10 +14,10 @@ All brushes are contained within the `//ezbrush ...` (`//ezbr`) command.
 
 **`//ezbr gradient <palette> [radius] [interpolation] [strength] [-av] [-n <noise>] [-z <scale>] [-d <distanceFunction>]`**
 
-The `gradient` brush allows you to first define a plane by selecting 2 points, you can then paint with your gradient with blocks chosen based on distance along this plane.
+Mit dem `gradient` brush können sie zunächst mit 2 Punkten eine Fläche definieren, innerhalb dieser Fläche kann mit einer gewünschten Blockpalette gemalt werden, die abstände zwischen den verschiedenen Blockarten wird durch die makierte Distanz bestimmt.
 
-**<u>Left Click</u> to start a plane at your target block**\
-**<u>Sneak + Left Click</u> to start a plane at the player position**\
+**<u>Linksklick </u> um eine Fläche an Ihrem Zielblock zu starten**\
+**<u>Schleichen + Linksklick</u> um eine Fläche an der Spieler Position zu starten**\
 **<u>Right Click</u> to set the end of the plane at your target block OR paint palette blocks if the plane is set**\
 **<u>Sneak + Right Click</u> to set the end of the plane at the player position OR paint palette blocks if the plane is set**\
 **<u>Swap Hands (Default F key)</u> to toggle between GLOBAL and PER_ITEM active gradients**
