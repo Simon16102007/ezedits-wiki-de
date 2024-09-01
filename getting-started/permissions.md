@@ -77,28 +77,28 @@ Beschreibung: Liste mit den Berechtigungen die ezEdits enthält
     </tr>
     <tr>
       <td>ezedits.deform.voronoialize2</td>
-      <td><strong>//ezdeform voronoialize2</strong><br>Deforms the blocks in a selection into voronoi cells approximating the input shapes</td>
-      <td>Intermediate</td>
+      <td><strong>//ezdeform voronoialize2</strong><br>Verformt die makierten Blöcke zu Voronoi-Zellen die an die Eingabe Formen angeglichen sind</td>
+      <td>mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.deform.voxelize</td>
-      <td><strong>//ezdeform voxelize</strong><br>Deforms the blocks in a selection into voxels</td>
-      <td>Intermediate</td>
+      <td><strong>//ezdeform voxelize</strong><br>Verformt die makierten Blöcke in Voxels</td>
+      <td>mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.flow.flowfield</td>
-      <td><strong>//ezflowfield</strong><br>Generates a flowfield within a selection</td>
-      <td>Intermediate</td>
+      <td><strong>//ezflowfield</strong><br>Generiert ein flowfield in dem makierten Bereich</td>
+      <td>mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.flow.flowline</td>
-      <td><strong>//ezflowline</strong><br>Creates a single flow line from the player position</td>
-      <td>Intermediate</td>
+      <td><strong>//ezflowline</strong><br>Generiert eine einzelne flow linie von der Spieler Position</td>
+      <td>mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.gen.cone</td>
-      <td><strong>//ezshapes cone</strong><br>Generates a Cone at the player's position</td>
-      <td>Basic</td>
+      <td><strong>//ezshapes cone</strong><br>Generiert einen Kegel an der Position des Spielers</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.gen.polydome</td>
