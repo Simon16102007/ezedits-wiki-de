@@ -1,6 +1,6 @@
 # Installieren
 
-ezEdits wird wie jedes andere Plugin Installiert, allerdings muss entweder WorldEdit oder FastAsyncWorldEdit bereits Installiert sein (nur eins von beidem, nicht beide).
+ezEdits wird wie jedes andere Plugin installiert, allerdings muss entweder WorldEdit oder FastAsyncWorldEdit bereits Installiert sein (nur eins von beidem, nicht beide).
 
 * [WorldEdit](https://modrinth.com/plugin/worldedit)
 * [FastAsyncWorldEdit](https://www.spigotmc.org/resources/fastasyncworldedit.13932/)
@@ -10,7 +10,7 @@ Wenn 1.20.5+ verwendet wird, muss Java mindestens auf 21 geupdatet sein.
 
 
 
-Es ist zu beachten das Paper die Serversoftware ist die wir Unterstützen, falls etwas anderes verwendet wird könnte es zu Kompatibilitätsproblemen kommen.
+Es ist zu beachten das Paper die Serversoftware ist, die wir unterstützen, falls etwas anderes verwendet wird könnte es zu Kompatibilitätsproblemen kommen.
 
 
 
