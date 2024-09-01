@@ -1,8 +1,8 @@
 ---
-description: List of permissions within ezEdits
+Beschreibung: Liste mit den Berechtigungen die ezEdits enthält
 ---
 
-# Permissions
+# Berechtigungen
 
 
 
@@ -17,63 +17,63 @@ description: List of permissions within ezEdits
   <tbody>
     <tr>
       <td>ezedits.general.wiki</td>
-      <td><strong>/ezedits wiki</strong><br>Prints the link for this wiki in chat</td>
-      <td>Basic</td>
+      <td><strong>/ezedits wiki</strong><br>Schickt den Link für dieses Wiki in den Chat</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.general.info</td>
-      <td><strong>/ezedits info</strong><br>Prints basic plugin info in chat</td>
-      <td>Basic</td>
+      <td><strong>/ezedits info</strong><br>Schickt Grundlegende Plugin Informationen in den Chat</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.admin.reload</td>
-      <td><strong>/ezedits reload</strong><br>Reloads the config</td>
+      <td><strong>/ezedits reload</strong><br>Läd die Config neu</td>
       <td>Admin</td>
     </tr>
     <tr>
       <td>ezedits.brush.gradient</td>
-      <td><strong>//ezbr gradient</strong><br>Binds the gradient brush to an item</td>
-      <td>Intermediate</td>
+      <td><strong>//ezbr gradient</strong><br>Verbindet den Gradient Brush mit einem Gegenstand</td>
+      <td>mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.brush.gradientstroke</td>
-      <td><strong>//ezbr gradientstroke</strong><br>Binds the gradient stroke brush to an item</td>
-      <td>Intermediate</td>
+      <td><strong>//ezbr gradientstroke</strong><br>Verbindet den Gradient stroke Brush mit einem Gegenstand</td>
+      <td>mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.brush.paletteshift</td>
-      <td><strong>//ezbr paletteshift</strong><br>Binds the palette shift brush to an item</td>
-      <td>Intermediate</td>
+      <td><strong>//ezbr paletteshift</strong><br>Verbindet den Palatte shift brush mit einem Gegenstand</td>
+      <td>Mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.debug</td>
-      <td><strong>//debugez ...</strong><br>Various debug commands. <br>Not required for normal use</td>
+      <td><strong>//debugez ...</strong><br>Verschiedene Debug-Befehle. <br>Normalerweise nicht benötigt</td>
       <td>Admin</td>
     </tr>
     <tr>
       <td>ezedits.debug.loadingbar</td>
-      <td><strong>//debugez clearLoadingBars</strong><br>Clears any active progress bar on screen.</td>
-      <td>Basic</td>
+      <td><strong>//debugez clearLoadingBars</strong><br>Löscht alle aktiven Fortschrittsbalken auf dem Bildschirm.</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.deform.hexagonalize</td>
-      <td><strong>//ezdeform hexagonalize</strong><br>Deforms the blocks in selection into hexagonal pillars</td>
-      <td>Intermediate</td>
+      <td><strong>//ezdeform hexagonalize</strong><br>Verformt die makierten Blöcke zu sechseckigen Säulen</td>
+      <td>mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.deform.noise</td>
-      <td><strong>//ezdeform noise</strong><br>Deforms the blocks in selection based on a given noise</td>
-      <td>Intermediate</td>
+      <td><strong>//ezdeform noise</strong><br>Verformt die makierten Blöcke zu einem vorgegebenen Rauschen</td>
+      <td>mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.deform.rotate</td>
-      <td><strong>//ezdeform rotate</strong><br>Rotates the blocks in selection</td>
-      <td>Basic</td>
+      <td><strong>//ezdeform rotate</strong><br>Rotiert die makierten Blöcke</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.deform.voronoialize</td>
-      <td><strong>//ezdeform voronoialize</strong><br>Deforms the blocks in a selection into voronoi cells</td>
-      <td>Intermediate</td>
+      <td><strong>//ezdeform voronoialize</strong><br>Verformt die makierten Blöcke zu Voronoi-Zellen</td>
+      <td>mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.deform.voronoialize2</td>
