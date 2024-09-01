@@ -102,38 +102,38 @@ Beschreibung: Liste mit den Berechtigungen die ezEdits enthält
     </tr>
     <tr>
       <td>ezedits.gen.polydome</td>
-      <td><strong>//ezshapes polydome</strong><br>Generates a Polydome at the player's position</td>
-      <td>Basic</td>
+      <td><strong>//ezshapes polydome</strong><br>Generiert einen Polydome an der Position des Spielers</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.gen.polygon</td>
-      <td><strong>//ezshapes polygon</strong><br>Generates a Polygon at the player's position</td>
-      <td>Basic</td>
+      <td><strong>//ezshapes polygon</strong><br>Generiert ein Polygon an der Position des Spielers</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.gen.square</td>
-      <td><strong>//ezshapes square</strong><br>Generates a Square at the player's position</td>
-      <td>Basic</td>
+      <td><strong>//ezshapes square</strong><br>Generiert ein Quadrat an der Position des Spielers</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.gen.tetrahedron</td>
-      <td><strong>//ezshapes tetrahedron</strong><br>Generates a Tetrahedron at the player's position</td>
-      <td>Basic</td>
+      <td><strong>//ezshapes tetrahedron</strong><br>Generiert ein Tetraeder an der Position des Spielers</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.gen.torus</td>
-      <td><strong>//ezshapes Torus</strong><br>Generates a Torus at the player's position</td>
-      <td>Basic</td>
+      <td><strong>//ezshapes Torus</strong><br>Generiert einen Torus an der Position des Spielers</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.mask.aim</td>
-      <td><strong>#aim</strong><br>Masks to blocks matching the target block</td>
-      <td>Basic</td>
+      <td><strong>#aim</strong><br>Masken für Blöcke, welche Anvisiert werden</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.mask.attached</td>
-      <td><strong>#attached</strong><br>Masks to blocks touching adjacent blocks</td>
-      <td>Basic</td>
+      <td><strong>#attached</strong><br>Masken für Blöcke, welche anliegende Blöcke berühren</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.mask.current</td>
