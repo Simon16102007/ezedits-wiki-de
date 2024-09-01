@@ -137,38 +137,38 @@ Beschreibung: Liste mit den Berechtigungen die ezEdits enthält
     </tr>
     <tr>
       <td>ezedits.mask.current</td>
-      <td><strong>#current</strong><br>Represents your current global mask</td>
-      <td>Basic</td>
+      <td><strong>#current</strong><br>Stellt die aktuelle globale Maske dar</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.mask.fullblock</td>
-      <td><strong>#fullblock</strong><br>Masks to blocks which occupy a full block of space</td>
-      <td>Basic</td>
+      <td><strong>#fullblock</strong><br>Masken für Blöcke, welche solide sind</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.mask.light</td>
-      <td><strong>#truelight | #blocklight</strong><br>Masks to block matching a light level range.<br>Truelight includes skylight<br>Blocklight only considers light from blocks</td>
-      <td>Basic</td>
+      <td><strong>#truelight | #blocklight</strong><br>Masken zum Blockieren von Bereich die einem bestimmten Lichtlevel entsprechen. <br>Truelight schließt Sonnenlicht ein <br>Blocklight berücksichtigt nur Licht von Blöcken</td>
+      <td>Grundlegend</td>
     </tr>
     <tr>
       <td>ezedits.mask.near</td>
-      <td><strong>#near</strong><br>Masks to blocks withing a given 3D range of the inner mask</td>
-      <td>Intermediate</td>
+      <td><strong>#near</strong><br>Masken für Blöcke, welche innerhalb eines bestimmten 3D-Bereichs der inneren Maske liegen</td>
+      <td>mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.mask.noise</td>
-      <td><strong>#eznoisemask</strong><br>Masks to blocks at positions where the given noise is above the given threshold</td>
-      <td>Intermediate</td>
+      <td><strong>#eznoisemask</strong><br>Masken für Blöcke an Stellen, an denen das gegebene Rauschen über dem gegebenen Schwellenwert liegt</td>
+      <td>mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.mask.palette</td>
-      <td><strong>#palette | #fuzzypalette</strong><br>Masks to blocks within the given palette.<br>Fuzzypalette ignores block states</td>
-      <td>Intermediate</td>
+      <td><strong>#palette | #fuzzypalette</strong><br>Masken auf Blöcke innerhalb der angegebenen Palette.<br>Fuzzypalette ignoriert Blockzustände</td>
+      <td>mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.mask.selection</td>
-      <td><strong>#savedselection</strong><br>Masks to blocks within the region of a saved selection</td>
-      <td>Intermediate</td>
+      <td><strong>#savedselection</strong><br>Masken für Blöcke, welche Kopiert wurden</td>
+      <td>mittlere Stufe</td>
     </tr>
     <tr>
       <td>ezedits.mask.vectorgradient</td>
