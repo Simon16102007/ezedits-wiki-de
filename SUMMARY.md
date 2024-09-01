@@ -1,33 +1,33 @@
-# Table of contents
+# Inhaltsübersicht
 
 * [ezEdits Docs](README.md)
 
-## Getting Started
+## Erste Schritte
 
 * [Installing](getting-started/installing.md)
 * [Permissions](getting-started/permissions.md)
 
-## Palettes
+## Paletten
 
 * [Palettes Explained](palettes/palettes-explained.md)
 * [Palette Commands](palettes/palette-commands.md)
 
-## Noise
+## Rauschen
 
 * [Noise Explained](noise/noise-explained.md)
 * [Noise Commands](noise/noise-commands.md)
 
-## Masks & Patterns
+## Masken & Muster
 
 * [Masks](masks-and-patterns/masks.md)
 * [Patterns](masks-and-patterns/patterns.md)
 
-## Brushes & Tools
+## Brushes & Werkzeuge
 
 * [Brushes](brushes-and-tools/brushes.md)
 * [Superwand](brushes-and-tools/superwand.md)
 
-## Commands
+## Befehle
 
 * [Deformation](commands/deformation.md)
 * [Flowfields](commands/flowfields.md)
