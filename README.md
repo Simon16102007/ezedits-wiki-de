@@ -1,4 +1,4 @@
-# ezEdits Docs
+# ezEdits Dokumente
 
 <div align="left">
 
@@ -6,14 +6,14 @@
 
 </div>
 
-## What is ezEdits?
+## Was ist ezEdits?
 
-ezEdits is a WorldEdit/FastAsyncWorldEdit (WE/FAWE) extension plugin which adds numerous new commands, patterns, masks, and tools to help you make amazing creations!
+ezEdits ist ein WorldEdit/FastAsyncWorldEdit (WE/FAWE) erweiterndes Plugin, das zahlreiche neue Befehle, Muster, Masken und Werkzeuge hinzufügt, mit diesen erstaunliche Dinge erschaffen werden können!
 
 ## Links
 
-* Get ezEdits (**Available Now**): [Ko-Fi](https://ko-fi.com/ezedits) or [Patreon](https://www.patreon.com/ezedits)
+* Bekomme ezEdits (**Available Now**): [Ko-Fi](https://ko-fi.com/ezedits) or [Patreon](https://www.patreon.com/ezedits)
 * Discord: [https://discord.gg/NfT3vyeKu5](https://discord.gg/NfT3vyeKu5)
 * Twitter: [https://twitter.com/ezEditsMC](https://twitter.com/ezEditsMC)
 * Instagram: [https://www.instagram.com/ezeditsmc/](https://www.instagram.com/ezeditsmc/)
-* Help us update the docs here: [https://github.com/Zeranny/ezedits-wiki](https://github.com/Zeranny/ezedits-wiki)
+* Hilf uns diese Dokumente zu Updaten: [https://github.com/Zeranny/ezedits-wiki](https://github.com/Zeranny/ezedits-wiki)
