@@ -26,5 +26,5 @@ Das Erweiterte Auswahl Werkzeug bietet vier verschiedene Modi für die Punktausw
   * Im point selection mode, entfernt den letzten gesetzten Punkt.
   * Im GRAB mode, lässt den Punkt oder die Auswahl los.
 * **Schleichen + Linksklick**: Wechselt durch die Werkzeugmodi.
-* **Zweithand Tauschen (Standart F Key)**: Reverses the order of points in the selection.
-* **Sneak + Swap Hand (Default F Key)**: Shifts all convex selection points along by one position in the list of points.
+* **Zweithand Tauschen (Standart Taste F)**: Kehrt die Reihenfolge der Punkte in der Auswahl um.
+* **Schleichen + Zweithand Tauschen (Default Taste F)**: Verschiebt alle convex Auswahlpunkte um eine Position in der Liste der Punkte.
