@@ -12,11 +12,11 @@ Alle Brushes sind unter dem `//ezbrush ...` (`//ezbr`) Command enthalten.
 
 <summary>Gradient Brush</summary>
 
-**`//ezbr gradient <palette> [radius] [interpolation] [strength] [-av] [-n <noise>] [-z <scale>] [-d <distanceFunction>]`**
+**`//ezbr gradient <Palette> [Radius] [Interpolation] [stärke] [-av] [-n <noise>] [-z <größe>] [-d <Distanz Funktion>]`**
 
 Mit dem `gradient` brush können sie zunächst mit 2 Punkten eine Fläche definieren, innerhalb dieser Fläche kann mit einer gewünschten Blockpalette gemalt werden, die abstände zwischen den verschiedenen Blockarten wird durch die makierte Distanz bestimmt.
 
-**<u>Linksklick </u> um eine Fläche an Ihrem Zielblock zu starten**\
+**<u>Linksklick</u> um eine Fläche an Ihrem Zielblock zu starten**\
 **<u>Schleichen + Linksklick</u> um eine Fläche an der Spieler Position zu starten**\
 **<u>Rechtsklick</u> um das Ende der Ebene am Zielblock festzulegen ODER um zu malen wenn die Fläche bereits festgelegt ist**\
 **<u>Schleichen + Rechtsklick</u> um das Ende an der Spieler Position festzulegen ODER um zu malen wenn die Fläche bereits festgelegt ist**\
@@ -28,7 +28,7 @@ Mit dem `gradient` brush können sie zunächst mit 2 Punkten eine Fläche defini
 * **Stärke** (Standart: 0.5): Stellt die Stärke der Interpolation ein, mit einem normalen Bereich von 0 bis 1.
 * **-a**: Wenn aktiviert, kann der Gradient Luftblöcke ersetzen.
 * **-v**: Deaktiviert die WorldEditCUI-Integration.
-* **-n \<noise>** (Standart: `White()`): Fügt dem Farbverlauf ein zugrunde liegendes Rauschen hinzu.
+* **-n \<noise>** (Standart: `Weiß()`): Fügt dem Farbverlauf ein zugrunde liegendes Rauschen hinzu.
 * **-z \<größe>** (Standart: 1): Bestimmt die größe des Rauschens.
 * **-d \<Distanz Funktion>** (Standart: KEINE): Legt den Abstandsmodus fest, der den Pinsel so verändert, dass er auf der Grundlage des Abstands zum Ausgangsblock mit der angegebenen Abstandsfunktion arbeitet.
 
@@ -40,25 +40,25 @@ Mit dem `gradient` brush können sie zunächst mit 2 Punkten eine Fläche defini
 
 <summary>Gradient Stroke Brush</summary>
 
-**`//ezbr gradientstroke <palette> [radius] [interpolation] [strength] [-adv] [-n <noise>] [-z <scale>]`**
+**`//ezbr gradientstroke <Palette> [Radius] [Interpolation] [stärke] [-adv] [-n <noise>] [-z <größe>]`**
 
-The `gradientstroke` brush allows for gradient application along a path (stroke) defined by selecting points.
+Der `gradientstroke` brush erlaubt die Anwendung von Farbverläufen entlang eines durch die Auswahl von Punkten definierten Pfades (Strich).
 
-**<u>Left Click</u> to add points**\
-**<u>Sneak + Left Click</u> to remove the last point**\
-**<u>Right Click</u> to confirm & place the gradient stroke**\
-**<u>Sneak + Right Click</u> to clear all points**\
-**<u>Swap Hands (Default F key)</u> to toggle between GLOBAL and PER_ITEM active gradients**
+**<u>Linksklick</u> um Punkte hinzuzufügen**\
+**<u>Schleichen + Left Click</u> Um den letzten Punkt zu entfernen**\
+**<u>Rechtsklick</u> um zu Bestätigen und den gradient stroke zu plazieren**\
+**<u>Schleichen + Rechtsklick</u> um alle Punkte zu Löschen**\
+**<u>Zweithand Tauschen (Standart Taste F)</u> Um zwischen GLOBAL und PER_ITEM zu wechseln**
 
-* **Palette**: Specifies the block pattern for the gradient.
-* **Radius** (Default: 8): Sets the radius of the brush.
-* **Interpolation** (Default: LINEAR): Determines the type of interpolation used in the gradient transition.
-* **Strength** (Default: 0.5): Adjusts the strength of interpolation, with a normal range from 0 to 1.
-* **-a**: When activated, allows the gradient to replace air blocks.
-* **-d**: Activates the 'distance to center' mode which applies the gradient based on distance to the middle of the stroke line instead of distance along the stroke.
-* **-v**: Deactivates WorldEditCUI integration.
-* **-n \<noise>** (Default: `White()`): Adds an underlying noise field to the gradient effect.
-* **-z \<scale>** (Default: 1): Modifies the scale of the noise.
+* **Palette**: Gibt das Blockmuster für den Farbverlauf an.
+* **Radius** (Standart: 8): Legt den Radius des Brushes fest.
+* **Interpolation** (Standart: LINEAR): Bestimmt die Art der Interpolation, die für den Gradientenübergang verwendet wird.
+* **Stärke** (Standart: 0.5): Stellt die Stärke der Interpolation ein, mit einem normalen Bereich von 0 bis 1.
+* **-a**: Wenn aktiviert, kann der Gradient Luftblöcke ersetzen.
+* **-d**: Aktiviert den Modus 'Abstand zur Mitte', der den Farbverlauf auf der Grundlage des Abstands zur Mitte der Strichlinie statt des Abstands entlang des Strichs verwendet.
+* **-v**: Deaktiviert die WorldEditCUI-Integration.
+* **-n \<noise>** (Standart: `Weiß()`): Fügt dem Gradienteneffekt ein zugrunde liegendes Noise hinzu.
+* **-z \<scale>** (Standart: 1): Ändert die Skala des Noise.
 
 </details>
 
