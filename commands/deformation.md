@@ -14,7 +14,7 @@ z.B. `//ezdeform hexagonalize`
 **`//ezdeform hexagonalize [größe] [Luftspalt] [x_rotieren] [z_rotieren] [winkel_versatz]`**&#x20;
 
 * **Größe** (Standart: 12): Legt die Größe der Hexagone fest.&#x20;
-* **Luftspalte** (Standart: 0.0): Bestimmt die Breite des Luftspalts zwischen den Spalten.&#x20;
+* **Luftspalt** (Standart: 0.0): Bestimmt die Breite des Luftspalts zwischen den Spalten.&#x20;
 * **X Rotation** (Standart: 0.0): Legt den Drehwinkel der Spalte entlang der X-Achse fest, in Grad.&#x20;
 * **Z Rotation** (Standart: 0.0): Legt den Drehwinkel der Spalte entlang der Z-Achse fest, in Grad.&#x20;
 * **Winkel versatz** (Standart: 60.0): Passt den Versatzwinkel an und steuert die Form (Bereich: 0-90 Grad).
@@ -33,7 +33,7 @@ z.B. `//ezdeform hexagonalize`
 * **Stärke** (Standart: 2.0): Legt die Stärke des Noise effekts fest.&#x20;
 * **Größe** (Standart: 1): Bestimmt das Ausmaß des Noise.&#x20;
 * **-s** (Standart: -1): Optionaler seed für das Noisemuster.&#x20;
-* **-h**: Wenn verwendet, wird der Bereich nur horizontal verformt..&#x20;
+* **-h**: Wenn verwendet, wird der Bereich nur horizontal verformt.&#x20;
 * **-v**: Wenn verwendet, wird der Bereich nur vertikal verformt.
 
 </details>
@@ -44,10 +44,10 @@ z.B. `//ezdeform hexagonalize`
 
 <summary>Rotate</summary>
 
-**`//ezdeform rotate <angle> [-o]`**&#x20;
+**`//ezdeform rotate <Winkel> [-o]`**&#x20;
 
-* **Angle**: Sets the angle of rotation, in degrees.&#x20;
-* **-o**: When used, uses the player's position as the center of rotation instead of the selection's center.
+* **Winkel**: Legt den Drehwinkel in Grad fest..&#x20;
+* **-o**: Wenn diese Option verwendet wird, wird die Position des Spielers als Rotationszentrum verwendet und nicht das Zentrum der Auswahl..
 
 </details>
 
@@ -57,11 +57,11 @@ z.B. `//ezdeform hexagonalize`
 
 <summary>Voronoialize</summary>
 
-**`//ezdeform voronoialize [size] [air_gap] [-s <seed>]`**
+**`//ezdeform voronoialize [größe] [Luftspalt] [-s <seed>]`**
 
-* **Size** (Default: 12): Determines the size of the voronoi cells.&#x20;
-* **Air Gap** (Default: 0.0): Specifies the width of the air gap between cells.&#x20;
-* **-s** (Default: -1): Optional seed for generating the pattern.
+* **Größe** (Standart: 12): Bestimmt die Größe der Voronoi-Zellen.&#x20;
+* **Luftspalt** (Standart: 0.0): Gibt die Breite des Luftspalts zwischen den Zellen an.&#x20;
+* **-s** (Standart: -1): Optionaler seed für die Erzeugung des Musters.
 
 </details>
 
@@ -71,13 +71,13 @@ z.B. `//ezdeform hexagonalize`
 
 <summary>Placeholder Name</summary>
 
-**`//ezdeform voronoialize2 <amount> [air_gap] [-s <seed>] [-r <seed_repulsion>] [-n <normalOffset>]`**
+**`//ezdeform voronoialize2 <Anzahl> [Luftspalt] [-s <seed>] [-r <seed_Abstoßung>] [-n <normalOffset>]`**
 
-* **Amount**: Specifies the cell amount in the voronoi pattern.&#x20;
-* **Air Gap** (Default: 0.0): Determines the width of the air gap between cells.&#x20;
-* **-s** (Default: -1): Optional seed for generating the pattern.&#x20;
-* **-r** (Default: 15): Sets the voronoi seed point repulsion factor.&#x20;
-* **-n** (Default: 5): Adjusts the normal offset factor, which can be decreased for thinner shapes.
+* **Anzahl**: Gibt die Anzahl der Zellen im Voronoi-Muster an.&#x20;
+* **Luftspalt** (Standart: 0.0): Bestimmt die Breite des Luftspalts zwischen den Zellen.&#x20;
+* **-s** (Standart: -1): Optionaler seedfür die Erzeugung des Musters.&#x20;
+* **-r** (Standart: 15): Legt den Abstoßungsfaktor der Voronoi-Setzpunkte fest.&#x20;
+* **-n** (Standart: 5): Passt den normalen Versatzfaktor an, der für dünnere Formen verringert werden kann..
 
 </details>
 
@@ -87,15 +87,16 @@ z.B. `//ezdeform hexagonalize`
 
 <summary>Voxelize</summary>
 
-**`//ezdeform voxelize <scales> <gap> <distortion> [-i <primary>] [-j <secondary>] [-s <seed>] [-hv]`**
+**`//ezdeform voxelize <größen> <spalt> <Verzerrung> [-i <primär>] [-j <sekundär>] [-s <seed>] [-hv]`**
 
-* **Scales** (Default: 3,3,3): Sets the scale for each dimension.&#x20;
-* **Gap** (Default: 0.0): Defines the width of the air gap between voxels.
-* **Distortion** (Default: 0.0): Adjusts the strength of random grid distortion (range: 0-1).&#x20;
-* **-i** (Default: y): Specifies the primary axis for grid rotation.&#x20;
-* **-j** (Default: -x): Specifies the secondary axis for grid rotation.&#x20;
-* **-s** (Default: -1): Optional seed for random distortion.&#x20;
-* **-h**: When used, only voxelizes horizontally.&#x20;
-* **-v**: When used, only voxelizes vertically.
+* **größen** (Standart: 3,3,3): Legt den Maßstab für jede Dimension fest.&#x20;
+* **Spalt** (Standart: 0.0): Bestimmt die Breite des Luftspalts zwischen Voxeln.
+* **Verzerrung** (Standart: 0.0): Passt die Stärke der zufälligen Gitterverzerrung an (Bereich: 0-1).&#x20;
+* **-i** (Standart: y): Gibt die primäre Achse für die Gitterdrehung an.&#x20;
+* **-j** (Standart: -x): Gibt die sekundäre Achse für die Gitterdrehung an.&#x20;
+* **-s** (Standart: -1): Optionaler seed für zufällige Verzerrung.&#x20;
+* **-h**: Wenn verwendet, wird der Bereich nur horizontal verformt.&#x20;
+* **-v**: Wenn verwendet, wird der Bereich nur vertikal verformt.
+
 
 </details>
