@@ -11,13 +11,13 @@ z.B. `//ezdeform hexagonalize`
 
 <summary>Hexagonalize</summary>
 
-**`//ezdeform hexagonalize [size] [air_gap] [x_rotation] [z_rotation] [offset_angle]`**&#x20;
+**`//ezdeform hexagonalize [größe] [Luftspalt] [x_rotieren] [z_rotieren] [winkel_versatz]`**&#x20;
 
-* **Size** (Default: 12): Sets the size of hexagons.&#x20;
-* **Air Gap** (Default: 0.0): Defines the width of the air gap between columns.&#x20;
-* **X Rotation** (Default: 0.0): Sets the column rotation angle along the X-axis, in degrees.&#x20;
-* **Z Rotation** (Default: 0.0): Sets the column rotation angle along the Z-axis, in degrees.&#x20;
-* **Offset Angle** (Default: 60.0): Adjusts the offset angle, controlling the shape (range: 0-90 degrees).
+* **Größe** (Standart: 12): Legt die Größe der Hexagone fest.&#x20;
+* **Luftspalte** (Standart: 0.0): Bestimmt die Breite des Luftspalts zwischen den Spalten.&#x20;
+* **X Rotation** (Standart: 0.0): Legt den Drehwinkel der Spalte entlang der X-Achse fest, in Grad.&#x20;
+* **Z Rotation** (Standart: 0.0): Legt den Drehwinkel der Spalte entlang der Z-Achse fest, in Grad.&#x20;
+* **Winkel versatz** (Standart: 60.0): Passt den Versatzwinkel an und steuert die Form (Bereich: 0-90 Grad).
 
 </details>
 
@@ -27,14 +27,14 @@ z.B. `//ezdeform hexagonalize`
 
 <summary>Noise</summary>
 
-**`//ezdeform noise <noise> [strength] [-z <scale>] [-s <seed>]`**
+**`//ezdeform noise <noise> [stärke] [-z <größe>] [-s <seed>]`**
 
-* **Noise**: Specifies the type of noise to use for deformation.&#x20;
-* **Strength** (Default: 2.0): Sets the strength of the noise effect.&#x20;
-* **Scale** (Default: 1): Determines the scale of the noise.&#x20;
-* **-s** (Default: -1): Optional seed for the noise pattern.&#x20;
-* **-h**: When used, only deforms the region horizontally.&#x20;
-* **-v**: When used, only deforms the region vertically.
+* **Noise**: Gibt die Art des für die Verformung zu verwendenden Noise an.&#x20;
+* **Stärke** (Standart: 2.0): Legt die Stärke des Noise effekts fest.&#x20;
+* **Größe** (Standart: 1): Bestimmt das Ausmaß des Noise.&#x20;
+* **-s** (Standart: -1): Optionaler seed für das Noisemuster.&#x20;
+* **-h**: Wenn verwendet, wird der Bereich nur horizontal verformt..&#x20;
+* **-v**: Wenn verwendet, wird der Bereich nur vertikal verformt.
 
 </details>
 
