@@ -26,11 +26,11 @@ Mit dem `gradient` brush können sie zunächst mit 2 Punkten eine Fläche defini
 * **Radius** (Standart: 8): Legt den Radius des Brushes fest.
 * **Interpolation** (Standart: KEINE): Bestimmt die Art der Interpolation, die für den Farbverlauf verwendet wird.
 * **Stärke** (Standart: 0.5): Stellt die Stärke der Interpolation ein, mit einem normalen Bereich von 0 bis 1.
-* **-a**: When activated, allows the gradient to replace air blocks.
+* **-a**: Wenn aktiviert, kann der Gradient Luftblöcke ersetzen.
 * **-v**: Deaktiviert die WorldEditCUI-Integration.
 * **-n \<noise>** (Standart: `White()`): Fügt dem Farbverlauf ein zugrunde liegendes Rauschen hinzu.
 * **-z \<größe>** (Standart: 1): Bestimmt die größe des Rauschens.
-* **-d \<Distanz Funktion>** (Standart: KEINE): Sets the distance mode changing the brush to work based on distance from the initial block with the given distance function.
+* **-d \<Distanz Funktion>** (Standart: KEINE): Legt den Abstandsmodus fest, der den Pinsel so verändert, dass er auf der Grundlage des Abstands zum Ausgangsblock mit der angegebenen Abstandsfunktion arbeitet.
 
 </details>
 
