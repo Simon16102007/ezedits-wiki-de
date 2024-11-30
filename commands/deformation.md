@@ -1,7 +1,7 @@
-# Deformation
+# Beschreibung
 
-All sub-commands are under `//ezdeform`  (`//ezd`) \
-e.g `//ezdeform hexagonalize`
+Alle Unterbefehle sind unter `//ezdeform`  (`//ezd`) \
+z.B. `//ezdeform hexagonalize`
 
 ## `//ezdeform ...`
 
