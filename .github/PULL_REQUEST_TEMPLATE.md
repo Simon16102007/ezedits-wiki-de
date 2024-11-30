@@ -1,11 +1,11 @@
-### Overview
+### Übersicht
 <!--  Please describe the change you are making 
 If this is related to an Issue on GitHub, please link to it
 -->
 
 
-### Checklist
+### Checkliste
 
-- [ ] Checked formatting, spelling, and links are all correct
-- [ ] Ensure any images/GIFs you intend to add have been compressed (Such as with https://compressor.io/)
+- [ ] Überprüfte Formatierung, Rechtschreibung und Links sind korrekt
+- [ ] Stellen Sie sicher, dass alle Bilder/GIFs, die Sie hinzufügen möchten, komprimiert wurden. (Such as with https://compressor.io/)
 
