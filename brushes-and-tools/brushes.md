@@ -68,13 +68,13 @@ Der `gradientstroke` brush erlaubt die Anwendung von Farbverläufen entlang eine
 
 <summary>Palette Shift Brush</summary>
 
-**`//ezbr paletteshift <palette> [radius] [shift]`**
+**`//ezbr paletteshift <Palette> [Radius] [Änderung]`**
 
-Replaces blocks matching the palette with palette blocks shifted along by the given amount.\
-For example, a shift value of 2 will replace any instances of the first palette block with the third.
+Ersetzt Blöcke, die der Palette entsprechen, durch Palettenblöcke, die um den angegebenen Wert verschoben sind.
+Bei einem Verschiebungswert von 2 werden zum Beispiel alle Objekte des ersten Palettenblocks durch den dritten ersetzt.
 
-* **Palette**: Specifies the block pattern for the gradient.
-* **Radius** (Default: 8): Sets the radius of the brush.
-* **Shift** (Default: 1): The amount by which to shift blocks within palette
+* **Palette**: Gibt das Blockmuster für den Farbverlauf an.
+* **Radius** (Standart: 8): Legt den Radius des Brushes fest.
+* **Änderung** (Standart: 1): Der Betrag, um den Blöcke innerhalb der Palette verschoben werden sollen
 
 </details>
