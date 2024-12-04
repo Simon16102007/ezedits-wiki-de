@@ -44,19 +44,19 @@ Erzeugt ein Flussfeld innerhalb einer Auswahl, das dynamische Muster auf der Gru
 
 <summary>Flow Line</summary>
 
-**`/ezflowline <pattern> <length> <gravity> <noise> [-i <inertia>] [-c <convexSelPoints>] [-s]`**
+**`/ezflowline <Muster> <Länge> <Schwerkraft> <Noise> [-i <Schwungkraft>] [-c <convexSelPoints>] [-s]`**
 
 **`Alias: //flowline`**
 
-Generates a single flow-line based on the actor's position and viewing direction.\
-The same fundamental premise as a Flow Field, but only generating 1 line.
+Erzeugt eine einzelne Flow-Line basierend auf der Position und Blickrichtung des Spielers.\
+Dieselbe Grundvoraussetzung wie ein Flow Field, aber es wird nur 1 Linie erzeugt.
 
-* **Pattern**: Determines the pattern of blocks to place.&#x20;
-* **Length**: Sets the length of the flowline in blocks. This defines how far the flowline will extend from the starting point.
-* **Gravity** (Standart: -1): Applies gravity to points, pulling them in the specified direction.
-* **Noise** (Standart: `Perlin()`): The type of noise used to generate the flowfield.
-* **-i** (Standart: 0.0): Adjusts the point inertia weighting, controlling how much previous movement directions influence future directions. A value between 0.0 and 1.0.
-* **-c** (Standart: 0): If greater than 0, creates a convex selection out of the flowline, using the specified number of points to define the selection's shape.
-* **-s**: Enables snapping of the flowline to surfaces, making the line adhere to the contours of the landscape or structures it intersects.
+* **Muster**: Bestimmt das Muster der zu platzierenden Blöcke.&#x20;
+* **Länge**: Legt die Länge der flowline in Blöcken fest. Damit wird festgelegt, wie weit sich die Stromlinie vom Startpunkt aus erstreckt.
+* **Schwerkraft** (Standart: -1): Wendet die Schwerkraft auf Punkte an und zieht sie in die angegebene Richtung.
+* **Noise** (Standart: `Perlin()`): Die Art des Noise, das zur Erzeugung des flowfield verwendet wird.
+* **-i** (Standart: 0.0): Passt die Wichtung der punktförmigen Masse an und steuert, wie stark frühere Bewegungsrichtungen zukünftige Richtungen beeinflussen. Ein Wert zwischen 0,0 und 1,0.
+* **-c** (Standart: 0): Ist dieser Wert größer als 0, wird eine convex Auswahl aus der flowline erstellt, wobei die angegebene Anzahl von Punkten zur Definition der Form der Auswahl verwendet wird.
+* **-s**: Ermöglicht das Ausrichten der flowline an Oberflächen, so dass die Linie an den Konturen der Landschaft oder der Strukturen, die sie schneidet, haften bleibt.
 
 </details>
