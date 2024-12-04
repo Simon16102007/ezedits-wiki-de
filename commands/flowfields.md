@@ -22,19 +22,19 @@ Erzeugt ein Flussfeld innerhalb einer Auswahl, das dynamische Muster auf der Gru
 * **Wiederholungen** (Standart: 32): Die Anzahl der Wiederholungen oder Schritte pro Linie, die bestimmt, wie lang sie sein werden.
 * **Geschwindigkeit** (Standart: 1): Die Geschwindigkeit, mit der sich Punkte auf der Oberfläche bewegen.
 * **PalettenSkalar** (Standart: 1.0): Skaliert den Wert, der zur Auswahl eines Palettenblocks verwendet wird.
-* **Noise** (Standart: `Perlin()`): The type of noise used to generate the flowfield.
-* **-m**: Applies a mask to limit the flow's start points, focusing the effect on specific areas.
-* **-h**: Enables heightmap mode for creating 2D flowfields, with optional block distribution modes.
-* **-i** (Standart: 0.0): Sets the inertia weighting of the flow, controlling how much previous movement directions influence the next.
-* **-g** (Standart: (0,0,0) ): Applies gravity to points, pulling them in the specified direction.
-* **-j** (Standart: (0,0,0) ): Adds jitter to the start points of lines. Useful with `-m` flag.
-* **-b** (Standart: 0): Expands the calculation boundary without placing blocks outside the original selection. Does not place blocks outside the selection.
-* **-x, -y, -z**: Modify the coordinates of the flow, allowing for transformations like scaling or rotation. Takes in a WorldEdit expression, e.g `-x *10` to multiply the x axis by 10.
-* **-p** (Standart: 1:1): Adjusts the strength of the line as it progresses, accepts negative values to either start or end on a point strength that subtracts from the flow field.
-* **-s** (Standart: -1): Overrides the default noise seed.
-* **-c**: Returns the curl of the field.
-* **-f**: Fills gaps with the lowest block in the palette.
-* **-t**: Generates a 3D flowfield instead. May require a lot of time to generate.
+* **Noise** (Standart: `Perlin()`): Die Art des Noise, das zur Erzeugung des Flowfields verwendet wird.
+* **-m**: Wendet eine Maske an, um die Startpunkte des Verlaufs zu begrenzen und den Effekt auf bestimmte Bereiche zu konzentrieren.
+* **-h**: Aktiviert den Heightmap-Modus zur Erstellung von 2D-flowfields, mit optionalen Blockverteilungsmodi.
+* **-i** (Standart: 0.0): Legt die Gewichtung der Schwungkraft des Flusses fest und steuert damit, wie stark frühere Bewegungsrichtungen die nächste beeinflussen.
+* **-g** (Standart: (0,0,0) ): Wendet die Schwerkraft auf Punkte an und zieht sie in die angegebene Richtung.
+* **-j** (Standart: (0,0,0) ): Fügt Jitter zu den Anfangspunkten von Linien hinzu. Nützlich mit der `-m` Flag. 
+* **-b** (Standart: 0): Erweitert den Rechenbereich, ohne Blöcke außerhalb der ursprünglichen Auswahl zu platzieren. Platziert keine Blöcke außerhalb der Auswahl.
+* **-x, -y, -z**: Ändert die Koordinaten des Verlaufs, um Transformationen wie Skalierung oder Drehung zu ermöglichen. Nimmt einen WorldEdit-Ausdruck auf, z. B. `-x *10`, um die x-Achse mit 10 zu multiplizieren.
+* **-p** (Standart: 1:1): Passt die Stärke der Linie im Verlauf an, akzeptiert negative Werte, um entweder auf einer Punktstärke zu beginnen oder zu enden, die vom flow field abgezogen wird.
+* **-s** (Standart: -1): Überschreibt den standardmäßige Noise seed.
+* **-c**: Gibt die Krümmung des Feldes zurück.
+* **-f**: Füllt Lücken mit dem niedrigsten Block in der Palette.
+* **-t**: Erzeugt stattdessen ein 3D-flowfield. Die Generierung kann sehr viel Zeit in Anspruch nehmen.
 
 </details>
 
