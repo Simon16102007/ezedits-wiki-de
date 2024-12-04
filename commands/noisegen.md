@@ -13,7 +13,7 @@ e.g `//ng heightmap`
 
 <summary>Heightmap (2D)</summary>
 
-**`//eznoisegen heightmap <palette> <noise> [height] [-z <zoom>] [-s <seed>] [-o <offset>] [-ct]`**
+**`//eznoisegen heightmap <Palette> <Noise> [Höhe] [-z <Zoom>] [-s <Seed>] [-o <Versatz>] [-ct]`**
 
 * **Palette**: Specifies the palette of blocks to use.&#x20;
 * **Noise**: Defines the noise preset to use.&#x20;
